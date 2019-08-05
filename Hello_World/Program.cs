@@ -8,8 +8,6 @@ namespace Hello_World
         {
             Console.WriteLine("Hello World! What a brave new day!");
             Console.ReadLine();
-            // this 
-            //this 2
         }
     }
 }
