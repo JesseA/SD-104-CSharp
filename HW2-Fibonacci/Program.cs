@@ -9,9 +9,15 @@ namespace HW2_Fibonacci
             int nInput = 0;
             Console.WriteLine("Fibonacci Sequence");
             Console.Write("Please input an integer to calculate the Fibonacci Sequence: ");
+            while (true)
+            {
+
             while (!Int32.TryParse(Console.ReadLine(),out nInput))
             {
                 Console.Write("Please input an integer to calculate the Fibonacci Sequence: ");
+            }
+                if (nInput > 1) { break; }
+                else { continue; }
             }
             Fibonacci myFib = new Fibonacci(nInput);
         }
