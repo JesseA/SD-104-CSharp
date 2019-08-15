@@ -19,33 +19,44 @@ namespace Lab2_CalcBattingAvg
             double dBattingAverage;
 
             //user prompt
-            Console.WriteLine("This program calculates a basebal player's batting average");
+            Console.WriteLine("~This program calculates a basebal player's batting average~");
             Console.WriteLine("Enter 'Exit' as the  player name to end the program");
             Console.WriteLine("<-------------------------------------------------------->");
             while(true)
             {
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.Write("Please enter the player's name: ");
-            sPlayerName=Console.ReadLine();
-            if(sPlayerName.ToLower()=="exit")
+                try
                 {
-                    System.Environment.Exit(0);
-                }
-                else { 
-            Console.Write("Please enter "+sPlayerName+"'s number of hits: ");
-            nHits = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Please enter " + sPlayerName + "'s number at bats: ");
-            nAtBats= Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.Write("Please enter the player's name: ");
+                    sPlayerName = Console.ReadLine();
+                    if (sPlayerName.ToLower() == "exit")
+                    {
+                        System.Environment.Exit(0);
+                    }
+                    else
+                    {
+                        Console.Write("Please enter " + sPlayerName + "'s number of hits: ");
+                        while(!Double.TryParse(Console.ReadLine(),out nHits))
+                        {
+                            Console.Write("Please input a valid number of hits: ");
+                        }
+                        Console.Write("Please enter " + sPlayerName + "'s number at bats: ");
+                        while (!Double.TryParse(Console.ReadLine(), out nAtBats))
+                        {
+                            Console.Write("Please input a valid number at bats: ");
+                        }
 
-             Console.WriteLine("");
+                        Console.WriteLine("");
 
-             Console.WriteLine("Player Name: "+sPlayerName);
-            Console.WriteLine(sPlayerName+"'s Number of Hits: "+nHits);
-            Console.WriteLine(sPlayerName + "'s Number at Bats: " + nAtBats);
-            dBattingAverage = nHits / nAtBats;
-            Console.WriteLine(sPlayerName + "'s Batting Average: " + dBattingAverage);
+                        Console.WriteLine("Player Name: " + sPlayerName);
+                        Console.WriteLine(sPlayerName + "'s Number of Hits: " + nHits);
+                        Console.WriteLine(sPlayerName + "'s Number at Bats: " + nAtBats);
+                        dBattingAverage = nHits / nAtBats;
+                        Console.WriteLine(sPlayerName + "'s Batting Average: " + dBattingAverage);
+                    }
                 }
+                catch (Exception) { continue; }
             }
 
         }

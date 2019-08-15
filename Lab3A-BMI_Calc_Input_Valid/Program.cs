@@ -6,27 +6,44 @@ namespace Lab3A_BMI_Calc_Input_Valid
     {
         static void Main(string[] args)
         {
-            double dHeight=0, dWeight=0, dBMI=0;
+            double dHeight=-1, dWeight=-1, dBMI=0;
             
                     Console.WriteLine("BMI Calculator");
                     Console.WriteLine("");
 
                     Console.Write("Please Enter Your Height in Inches: ");
-                    while(!double.TryParse(Console.ReadLine(), out dHeight))
-                    {
-                         Console.WriteLine("Invalid input. Height must be a posistive, rational number.");
-                        Console.WriteLine("");
-                        Console.Write("Please Enter Your Height in Inches: ");
-                    }
+            while (dHeight < 0)
+            {
+                while (!double.TryParse(Console.ReadLine(), out dHeight))
+                {
+                    Console.WriteLine("Invalid input. Height must be a posistive, rational number.");
+                    Console.WriteLine("");
+                    Console.Write("Please Enter Your Height in Inches: ");
+                }
+                if(dHeight<0)
+                {
+                    Console.WriteLine("Invalid input. Height must be a posistive, rational number.");
+                    Console.WriteLine("");
+                    Console.Write("Please Enter Your Height in Inches: ");
+                }
 
+            }
                     Console.Write("Please Enter Your Weight in Pounds: ");
-                    while (!double.TryParse(Console.ReadLine(), out dWeight))
-                     {
-                        Console.WriteLine("Invalid input. Weight must be a posistive, rational number.");
-                        Console.WriteLine("");
-                        Console.Write("Please Enter Your Weight in Pounds: ");
-                    }
-
+            while (dWeight < 0)
+            {
+                while (!double.TryParse(Console.ReadLine(), out dWeight))
+                {
+                    Console.WriteLine("Invalid input. Weight must be a posistive, rational number.");
+                    Console.WriteLine("");
+                    Console.Write("Please Enter Your Weight in Pounds: ");
+                }
+                if(dWeight<0)
+                {
+                    Console.WriteLine("Invalid input. Weight must be a posistive, rational number.");
+                    Console.WriteLine("");
+                    Console.Write("Please Enter Your Weight in Pounds: ");
+                }
+            }
                     dBMI = ((dWeight * 703) / (dHeight * dHeight));
 
                     Console.WriteLine("Your BMI is " + dBMI);

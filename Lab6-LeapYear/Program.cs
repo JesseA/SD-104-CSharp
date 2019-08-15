@@ -25,6 +25,7 @@ namespace Lab6_LeapYear
                     else
                     { Console.WriteLine(nYear + " is not a Leap Year."); }
 
+                    Console.WriteLine("");
                     Console.WriteLine("Would you like to test another Year? Enter 'Y' or 'Yes' to continue; Enter anyting else to Exit the program: ");
                     String myStr = Console.ReadLine().ToLower().Trim();
                     bExtitCondition =("y".Equals(myStr))|| ("yes".Equals(myStr));
