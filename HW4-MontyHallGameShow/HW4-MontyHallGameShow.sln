@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4-MontyHallGameShow", "HW4-MontyHallGameShow.csproj", "{6194C467-B51A-4A93-8415-003139C5101D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6194C467-B51A-4A93-8415-003139C5101D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6194C467-B51A-4A93-8415-003139C5101D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6194C467-B51A-4A93-8415-003139C5101D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6194C467-B51A-4A93-8415-003139C5101D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C9C8725-133F-4B3A-B6B5-91A6C9706FB0}
+	EndGlobalSection
+EndGlobal
