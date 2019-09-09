@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Lab3_AddingSongModel", "MVC_Lab3_AddingSongModel.csproj", "{13EE2C33-C659-43DB-8A6D-B1E65A95F6BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13EE2C33-C659-43DB-8A6D-B1E65A95F6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EE2C33-C659-43DB-8A6D-B1E65A95F6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EE2C33-C659-43DB-8A6D-B1E65A95F6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EE2C33-C659-43DB-8A6D-B1E65A95F6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AEEA16E-2F40-4A60-A4AF-660A213D4D6D}
+	EndGlobalSection
+EndGlobal
