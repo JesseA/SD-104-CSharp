@@ -46,6 +46,7 @@ namespace MusicStore.Controllers
             var custGenre=customer.FavoriteGenre;
             var custList1 = _context.Song.ToList();
             var custList2 = new List<Song>();
+
             foreach (var item in custList1)
             {
                 if(item.Genre==custGenre)
