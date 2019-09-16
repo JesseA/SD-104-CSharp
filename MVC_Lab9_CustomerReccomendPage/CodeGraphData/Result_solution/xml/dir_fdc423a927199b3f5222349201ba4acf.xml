@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_fdc423a927199b3f5222349201ba4acf" kind="dir">
+    <compoundname>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage</compoundname>
+    <innerdir refid="dir_960bcaa41913724c4c8ade32ce00e60a">C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers</innerdir>
+    <innerdir refid="dir_a7cfe6175a5158a81c5e76492ec0fbd3">C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data</innerdir>
+    <innerdir refid="dir_f4fbe5522395e2b3b704e03f20120d41">C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models</innerdir>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_startup_8cs">Startup.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/"/>
+  </compounddef>
+</doxygen>

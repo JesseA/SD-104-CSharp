@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_controllers_1_1_home_controller" kind="class" prot="public">
+    <compoundname>MusicStore::Controllers::HomeController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_music_store_1_1_controllers_1_1_home_controller_1a89e18b639285bcb5d1c875925c7f3901" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_music_store_1_1_data_1_1_application_db_context" kindref="compound">ApplicationDbContext</ref></type>
+        <definition>readonly ApplicationDbContext MusicStore.Controllers.HomeController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="19" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1ac015e96f1fd38d340c1e01e36e868a0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MusicStore.Controllers.HomeController.HomeController</definition>
+        <argsstring>(ApplicationDbContext context)</argsstring>
+        <name>HomeController</name>
+        <param>
+          <type><ref refid="class_music_store_1_1_data_1_1_application_db_context" kindref="compound">ApplicationDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="21" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1ab447fe264f69ef83cd8502d358b2521d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="25" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1a1194957f8eb3c0a15320cd7d22d111f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.HomeController.Albums</definition>
+        <argsstring>()</argsstring>
+        <name>Albums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="31" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1a201516d5f4358d4af8ad92276d2dfdfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.HomeController.About</definition>
+        <argsstring>()</argsstring>
+        <name>About</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="36" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1a3ede30c676413cc65af7093c2e6450e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.HomeController.Contact</definition>
+        <argsstring>()</argsstring>
+        <name>Contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="43" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1a2b2b9fc769baf64a190f72c9a9e06752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.HomeController.Privacy</definition>
+        <argsstring>()</argsstring>
+        <name>Privacy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="50" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_home_controller_1a61c59cc5552bae97e99db1c157b22c82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.HomeController.Error</definition>
+        <argsstring>()</argsstring>
+        <name>Error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="56" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>MusicStore.Controllers.HomeController</label>
+        <link refid="class_music_store_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>MusicStore.Controllers.HomeController</label>
+        <link refid="class_music_store_1_1_controllers_1_1_home_controller"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MusicStore.Data.ApplicationDbContext</label>
+        <link refid="class_music_store_1_1_data_1_1_application_db_context"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>IdentityDbContext</label>
+      </node>
+      <node id="53">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" line="17" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/HomeController.cs" bodystart="16" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a89e18b639285bcb5d1c875925c7f3901" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>_context</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a201516d5f4358d4af8ad92276d2dfdfb" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>About</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a1194957f8eb3c0a15320cd7d22d111f5" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>Albums</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a3ede30c676413cc65af7093c2e6450e2" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>Contact</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a61c59cc5552bae97e99db1c157b22c82" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>Error</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1ac015e96f1fd38d340c1e01e36e868a0a" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>HomeController</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1ab447fe264f69ef83cd8502d358b2521d" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>Index</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a2b2b9fc769baf64a190f72c9a9e06752" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::HomeController</scope><name>Privacy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

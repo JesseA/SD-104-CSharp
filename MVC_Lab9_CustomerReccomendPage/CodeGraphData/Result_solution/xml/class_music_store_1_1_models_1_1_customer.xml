@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_models_1_1_customer" kind="class" prot="public">
+    <compoundname>MusicStore::Models::Customer</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_customer_1a3687e461b92d79b21bae0f72ca91503c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int MusicStore.Models.Customer.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="13" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_music_store_1_1_controllers_1_1_customers_controller_1a47b0c09aa91a7280c119f15632f02c60" compoundref="_customers_controller_8cs" startline="105" endline="144">MusicStore.Controllers.CustomersController.Edit</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_customer_1aaf3162b1cf352c9856e11df18cfd4472" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Customer.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="14" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_customer_1aeb03852512a1925bceb4030b28446a01" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int MusicStore.Models.Customer.Age</definition>
+        <argsstring></argsstring>
+        <name>Age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="15" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_customer_1a0269f84238cc31346773ec34e63448fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Customer.FavoriteGenre</definition>
+        <argsstring></argsstring>
+        <name>FavoriteGenre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="17" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_customer_1a7d36bc8b090de1373fdf9df93f844883" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Customer.FavoriteSong</definition>
+        <argsstring></argsstring>
+        <name>FavoriteSong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="20" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_customer_1a434c8ef39329fab106e47928485cfa77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Customer.ImagePath</definition>
+        <argsstring></argsstring>
+        <name>ImagePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="23" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="11" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" bodystart="10" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_models_1_1_customer_1aeb03852512a1925bceb4030b28446a01" prot="public" virt="non-virtual"><scope>MusicStore::Models::Customer</scope><name>Age</name></member>
+      <member refid="class_music_store_1_1_models_1_1_customer_1a0269f84238cc31346773ec34e63448fb" prot="public" virt="non-virtual"><scope>MusicStore::Models::Customer</scope><name>FavoriteGenre</name></member>
+      <member refid="class_music_store_1_1_models_1_1_customer_1a7d36bc8b090de1373fdf9df93f844883" prot="public" virt="non-virtual"><scope>MusicStore::Models::Customer</scope><name>FavoriteSong</name></member>
+      <member refid="class_music_store_1_1_models_1_1_customer_1a3687e461b92d79b21bae0f72ca91503c" prot="public" virt="non-virtual"><scope>MusicStore::Models::Customer</scope><name>Id</name></member>
+      <member refid="class_music_store_1_1_models_1_1_customer_1a434c8ef39329fab106e47928485cfa77" prot="public" virt="non-virtual"><scope>MusicStore::Models::Customer</scope><name>ImagePath</name></member>
+      <member refid="class_music_store_1_1_models_1_1_customer_1aaf3162b1cf352c9856e11df18cfd4472" prot="public" virt="non-virtual"><scope>MusicStore::Models::Customer</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

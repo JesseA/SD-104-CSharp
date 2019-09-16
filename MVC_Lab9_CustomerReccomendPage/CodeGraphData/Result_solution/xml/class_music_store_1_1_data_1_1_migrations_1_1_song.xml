@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_data_1_1_migrations_1_1_song" kind="class" prot="public">
+    <compoundname>MusicStore::Data::Migrations::Song</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_song_1a811d84b6771871b0491b32149e32f2a2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.Song.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.cs" line="9" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.cs" bodystart="9" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_song_1a7ee7a19eae12580e64a67eea16e4c55c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.Song.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.cs" line="31" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_song_1a9c89f9355da5dc4d9aa5133a8cc6a929" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.Song.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.Designer.cs" line="16" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.Designer.cs" bodystart="16" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="70">
+        <label>MusicStore.Data.Migrations.Song</label>
+        <link refid="class_music_store_1_1_data_1_1_migrations_1_1_song"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>MusicStore.Data.Migrations.Song</label>
+        <link refid="class_music_store_1_1_data_1_1_migrations_1_1_song"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.cs" line="8" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/20190909180401_Song.cs" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_song_1a9c89f9355da5dc4d9aa5133a8cc6a929" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::Song</scope><name>BuildTargetModel</name></member>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_song_1a7ee7a19eae12580e64a67eea16e4c55c" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::Song</scope><name>Down</name></member>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_song_1a811d84b6771871b0491b32149e32f2a2" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::Song</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

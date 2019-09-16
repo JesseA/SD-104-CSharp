@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_960bcaa41913724c4c8ade32ce00e60a" kind="dir">
+    <compoundname>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers</compoundname>
+    <innerfile refid="_customers_controller_8cs">CustomersController.cs</innerfile>
+    <innerfile refid="_home_controller_8cs">HomeController.cs</innerfile>
+    <innerfile refid="_songs_controller_8cs">SongsController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/"/>
+  </compounddef>
+</doxygen>

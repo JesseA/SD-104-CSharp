@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_models_1_1_error_view_model" kind="class" prot="public">
+    <compoundname>MusicStore::Models::ErrorViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_error_view_model_1a7d3b64a6db429c4249eedbae6992b78e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.ErrorViewModel.RequestId</definition>
+        <argsstring></argsstring>
+        <name>RequestId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/ErrorViewModel.cs" line="7" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/ErrorViewModel.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_music_store_1_1_models_1_1_error_view_model_1aaf11aed6996eaee145c469bab7429734" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MusicStore.Models.ErrorViewModel.ShowRequestId</definition>
+        <argsstring></argsstring>
+        <name>ShowRequestId</name>
+        <initializer>=&gt; !string.IsNullOrEmpty(<ref refid="class_music_store_1_1_models_1_1_error_view_model_1a7d3b64a6db429c4249eedbae6992b78e" kindref="member">RequestId</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/ErrorViewModel.cs" line="9" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/ErrorViewModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/ErrorViewModel.cs" line="6" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/ErrorViewModel.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_models_1_1_error_view_model_1a7d3b64a6db429c4249eedbae6992b78e" prot="public" virt="non-virtual"><scope>MusicStore::Models::ErrorViewModel</scope><name>RequestId</name></member>
+      <member refid="class_music_store_1_1_models_1_1_error_view_model_1aaf11aed6996eaee145c469bab7429734" prot="public" virt="non-virtual"><scope>MusicStore::Models::ErrorViewModel</scope><name>ShowRequestId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

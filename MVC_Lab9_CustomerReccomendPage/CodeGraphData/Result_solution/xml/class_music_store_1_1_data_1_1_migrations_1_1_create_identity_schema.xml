@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema" kind="class" prot="public">
+    <compoundname>MusicStore::Data::Migrations::CreateIdentitySchema</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a009efd3d004c48ec92dd5fdb12c1f667" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.CreateIdentitySchema.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" line="9" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" bodystart="9" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a29f820ceff0f4374f90a84387c5421b3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.CreateIdentitySchema.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" line="196" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" bodystart="196" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a46a650c3755eff219055cd014539538c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.CreateIdentitySchema.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" line="16" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" bodystart="16" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>Migration</label>
+      </node>
+      <node id="32">
+        <label>MusicStore.Data.Migrations.CreateIdentitySchema</label>
+        <link refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>Migration</label>
+      </node>
+      <node id="34">
+        <label>MusicStore.Data.Migrations.CreateIdentitySchema</label>
+        <link refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" line="8" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" bodystart="7" bodyend="219"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a46a650c3755eff219055cd014539538c" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::CreateIdentitySchema</scope><name>BuildTargetModel</name></member>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a29f820ceff0f4374f90a84387c5421b3" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::CreateIdentitySchema</scope><name>Down</name></member>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a009efd3d004c48ec92dd5fdb12c1f667" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::CreateIdentitySchema</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

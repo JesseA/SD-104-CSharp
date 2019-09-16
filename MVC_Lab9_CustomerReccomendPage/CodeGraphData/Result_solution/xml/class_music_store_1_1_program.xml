@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_program" kind="class" prot="public">
+    <compoundname>MusicStore::Program</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_music_store_1_1_program_1a7ecafaeb4a96d39ba69d3c64c508283d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MusicStore.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Program.cs" line="15" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Program.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_music_store_1_1_program_1a261e90ebfec602eed7f1ba8612b902e0">MusicStore.Program.CreateWebHostBuilder</references>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_program_1a261e90ebfec602eed7f1ba8612b902e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IWebHostBuilder</type>
+        <definition>static IWebHostBuilder MusicStore.Program.CreateWebHostBuilder</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>CreateWebHostBuilder</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Program.cs" line="20" column="1"/>
+        <referencedby refid="class_music_store_1_1_program_1a7ecafaeb4a96d39ba69d3c64c508283d" compoundref="_program_8cs" startline="15" endline="18">MusicStore.Program.Main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Program.cs" line="14" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Program.cs" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_program_1a261e90ebfec602eed7f1ba8612b902e0" prot="public" virt="non-virtual"><scope>MusicStore::Program</scope><name>CreateWebHostBuilder</name></member>
+      <member refid="class_music_store_1_1_program_1a7ecafaeb4a96d39ba69d3c64c508283d" prot="public" virt="non-virtual"><scope>MusicStore::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

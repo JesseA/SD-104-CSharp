@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_music_store_1_1_data_1_1_migrations" kind="namespace">
+    <compoundname>MusicStore::Data::Migrations</compoundname>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema" prot="public">MusicStore::Data::Migrations::CreateIdentitySchema</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_initial1" prot="public">MusicStore::Data::Migrations::Initial1</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_song" prot="public">MusicStore::Data::Migrations::Song</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_second" prot="public">MusicStore::Data::Migrations::Second</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_third" prot="public">MusicStore::Data::Migrations::Third</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_lab7" prot="public">MusicStore::Data::Migrations::Lab7</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab7" prot="public">MusicStore::Data::Migrations::_2Lab7</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab7" prot="public">MusicStore::Data::Migrations::_3Lab7</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1__1_lab8" prot="public">MusicStore::Data::Migrations::_1Lab8</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_customers" prot="public">MusicStore::Data::Migrations::Customers</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab8" prot="public">MusicStore::Data::Migrations::_2Lab8</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab8" prot="public">MusicStore::Data::Migrations::_3Lab8</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1__4_lab8" prot="public">MusicStore::Data::Migrations::_4Lab8</innerclass>
+    <innerclass refid="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot" prot="public">MusicStore::Data::Migrations::ApplicationDbContextModelSnapshot</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/00000000000000_CreateIdentitySchema.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3e7c351716f1903d6f5d85391b507cbf" kind="dir">
+    <compoundname>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations</compoundname>
+    <innerfile refid="00000000000000___create_identity_schema_8cs">00000000000000_CreateIdentitySchema.cs</innerfile>
+    <innerfile refid="00000000000000___create_identity_schema_8_designer_8cs">00000000000000_CreateIdentitySchema.Designer.cs</innerfile>
+    <innerfile refid="20190909174907___initial1_8cs">20190909174907_Initial1.cs</innerfile>
+    <innerfile refid="20190909174907___initial1_8_designer_8cs">20190909174907_Initial1.Designer.cs</innerfile>
+    <innerfile refid="20190909180401___song_8cs">20190909180401_Song.cs</innerfile>
+    <innerfile refid="20190909180401___song_8_designer_8cs">20190909180401_Song.Designer.cs</innerfile>
+    <innerfile refid="20190912142132___second_8cs">20190912142132_Second.cs</innerfile>
+    <innerfile refid="20190912142132___second_8_designer_8cs">20190912142132_Second.Designer.cs</innerfile>
+    <innerfile refid="20190912153647___third_8cs">20190912153647_Third.cs</innerfile>
+    <innerfile refid="20190912153647___third_8_designer_8cs">20190912153647_Third.Designer.cs</innerfile>
+    <innerfile refid="20190916140034___lab7_8cs">20190916140034_Lab7.cs</innerfile>
+    <innerfile refid="20190916140034___lab7_8_designer_8cs">20190916140034_Lab7.Designer.cs</innerfile>
+    <innerfile refid="20190916142042__2_lab7_8cs">20190916142042_2Lab7.cs</innerfile>
+    <innerfile refid="20190916142042__2_lab7_8_designer_8cs">20190916142042_2Lab7.Designer.cs</innerfile>
+    <innerfile refid="20190916143513__3_lab7_8cs">20190916143513_3Lab7.cs</innerfile>
+    <innerfile refid="20190916143513__3_lab7_8_designer_8cs">20190916143513_3Lab7.Designer.cs</innerfile>
+    <innerfile refid="20190916150340__1_lab8_8cs">20190916150340_1Lab8.cs</innerfile>
+    <innerfile refid="20190916150340__1_lab8_8_designer_8cs">20190916150340_1Lab8.Designer.cs</innerfile>
+    <innerfile refid="20190916151330___customers_8cs">20190916151330_Customers.cs</innerfile>
+    <innerfile refid="20190916151330___customers_8_designer_8cs">20190916151330_Customers.Designer.cs</innerfile>
+    <innerfile refid="20190916152212__2_lab8_8cs">20190916152212_2Lab8.cs</innerfile>
+    <innerfile refid="20190916152212__2_lab8_8_designer_8cs">20190916152212_2Lab8.Designer.cs</innerfile>
+    <innerfile refid="20190916153618__3_lab8_8cs">20190916153618_3Lab8.cs</innerfile>
+    <innerfile refid="20190916153618__3_lab8_8_designer_8cs">20190916153618_3Lab8.Designer.cs</innerfile>
+    <innerfile refid="20190916154822__4_lab8_8cs">20190916154822_4Lab8.cs</innerfile>
+    <innerfile refid="20190916154822__4_lab8_8_designer_8cs">20190916154822_4Lab8.Designer.cs</innerfile>
+    <innerfile refid="_application_db_context_model_snapshot_8cs">ApplicationDbContextModelSnapshot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/"/>
+  </compounddef>
+</doxygen>

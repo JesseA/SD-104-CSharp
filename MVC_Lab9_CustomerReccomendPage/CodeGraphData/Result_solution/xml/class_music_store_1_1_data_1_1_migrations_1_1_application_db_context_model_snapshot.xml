@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot" kind="class" prot="public">
+    <compoundname>MusicStore::Data::Migrations::ApplicationDbContextModelSnapshot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelSnapshot</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot_1ab3b003c25af4e526e61c47daa215df56" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MusicStore.Data.Migrations.ApplicationDbContextModelSnapshot.BuildModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/ApplicationDbContextModelSnapshot.cs" line="14" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/ApplicationDbContextModelSnapshot.cs" bodystart="14" bodyend="282"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>ModelSnapshot</label>
+      </node>
+      <node id="28">
+        <label>MusicStore.Data.Migrations.ApplicationDbContextModelSnapshot</label>
+        <link refid="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>ModelSnapshot</label>
+      </node>
+      <node id="30">
+        <label>MusicStore.Data.Migrations.ApplicationDbContextModelSnapshot</label>
+        <link refid="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/ApplicationDbContextModelSnapshot.cs" line="13" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations/ApplicationDbContextModelSnapshot.cs" bodystart="12" bodyend="283"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot_1ab3b003c25af4e526e61c47daa215df56" prot="protected" virt="non-virtual"><scope>MusicStore::Data::Migrations::ApplicationDbContextModelSnapshot</scope><name>BuildModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_data_1_1_application_db_context" kind="class" prot="public">
+    <compoundname>MusicStore::Data::ApplicationDbContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IdentityDbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_music_store_1_1_data_1_1_application_db_context_1acec6343a2c964437ed16094a7c685e5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_music_store_1_1_models_1_1_song" kindref="compound">MusicStore.Models.Song</ref> &gt;</type>
+        <definition>DbSet&lt;MusicStore.Models.Song&gt; MusicStore.Data.ApplicationDbContext.Song</definition>
+        <argsstring></argsstring>
+        <name>Song</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" line="16" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_data_1_1_application_db_context_1a16ea0774b59af291650f3492c0f5cf16" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DbSet&lt; <ref refid="class_music_store_1_1_models_1_1_customer" kindref="compound">MusicStore.Models.Customer</ref> &gt;</type>
+        <definition>DbSet&lt;MusicStore.Models.Customer&gt; MusicStore.Data.ApplicationDbContext.Customer</definition>
+        <argsstring></argsstring>
+        <name>Customer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" line="17" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_music_store_1_1_data_1_1_application_db_context_1aecea523e4d34ebbf4485e26711e17527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MusicStore.Data.ApplicationDbContext.ApplicationDbContext</definition>
+        <argsstring>(DbContextOptions&lt; ApplicationDbContext &gt; options)</argsstring>
+        <name>ApplicationDbContext</name>
+        <param>
+          <type>DbContextOptions&lt; <ref refid="class_music_store_1_1_data_1_1_application_db_context" kindref="compound">ApplicationDbContext</ref> &gt;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" line="12" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>MusicStore.Data.ApplicationDbContext</label>
+        <link refid="class_music_store_1_1_data_1_1_application_db_context"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>IdentityDbContext</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>MusicStore.Data.ApplicationDbContext</label>
+        <link refid="class_music_store_1_1_data_1_1_application_db_context"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>IdentityDbContext</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" line="11" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/ApplicationDbContext.cs" bodystart="10" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_data_1_1_application_db_context_1aecea523e4d34ebbf4485e26711e17527" prot="public" virt="non-virtual"><scope>MusicStore::Data::ApplicationDbContext</scope><name>ApplicationDbContext</name></member>
+      <member refid="class_music_store_1_1_data_1_1_application_db_context_1a16ea0774b59af291650f3492c0f5cf16" prot="public" virt="non-virtual"><scope>MusicStore::Data::ApplicationDbContext</scope><name>Customer</name></member>
+      <member refid="class_music_store_1_1_data_1_1_application_db_context_1acec6343a2c964437ed16094a7c685e5e" prot="public" virt="non-virtual"><scope>MusicStore::Data::ApplicationDbContext</scope><name>Song</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

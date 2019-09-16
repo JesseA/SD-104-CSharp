@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_models_1_1_song" kind="class" prot="public">
+    <compoundname>MusicStore::Models::Song</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1a9b1d704b1444d73643356d2c4a5af98d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int MusicStore.Models.Song.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="12" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_music_store_1_1_controllers_1_1_songs_controller_1a51cd2dcf058dc60d2afa9405446ecd25" compoundref="_songs_controller_8cs" startline="106" endline="147">MusicStore.Controllers.SongsController.Edit</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1acf8e12b48d87c5340974590d44e9d8af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Song.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="13" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1aac792b7b00964576248c34950cd9c579" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Song.Artist</definition>
+        <argsstring></argsstring>
+        <name>Artist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="14" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1a09ffa87d566d660ebda512a32626d779" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Song.Album</definition>
+        <argsstring></argsstring>
+        <name>Album</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="15" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1a4612c326e5d4cd0334aab47ea004c5dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime MusicStore.Models.Song.ReleaseDate</definition>
+        <argsstring></argsstring>
+        <name>ReleaseDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="19" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1af8859cbb940a9106458b07a19896bf66" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Song.Genre</definition>
+        <argsstring></argsstring>
+        <name>Genre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="20" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1a4ba4f7bf3af3f740cda4cda228a57e37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MusicStore.Models.Song.ImagePath</definition>
+        <argsstring></argsstring>
+        <name>ImagePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="23" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1a903532cd136265da80d402ee7d5f22c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal MusicStore.Models.Song.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="24" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1a1b5e92d4ef158eea68906e65f58de80c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool MusicStore.Models.Song.IsActive</definition>
+        <argsstring></argsstring>
+        <name>IsActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="26" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_music_store_1_1_models_1_1_song_1ace6f0d3049e02cdef7461943f4c173dc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool MusicStore.Models.Song.IsFeatured</definition>
+        <argsstring></argsstring>
+        <name>IsFeatured</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="27" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" line="11" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Song.cs" bodystart="10" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_models_1_1_song_1a09ffa87d566d660ebda512a32626d779" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>Album</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1aac792b7b00964576248c34950cd9c579" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>Artist</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1af8859cbb940a9106458b07a19896bf66" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>Genre</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1a9b1d704b1444d73643356d2c4a5af98d" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>Id</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1a4ba4f7bf3af3f740cda4cda228a57e37" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>ImagePath</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1a1b5e92d4ef158eea68906e65f58de80c" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>IsActive</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1ace6f0d3049e02cdef7461943f4c173dc" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>IsFeatured</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1a903532cd136265da80d402ee7d5f22c3" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>Price</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1a4612c326e5d4cd0334aab47ea004c5dd" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>ReleaseDate</name></member>
+      <member refid="class_music_store_1_1_models_1_1_song_1acf8e12b48d87c5340974590d44e9d8af" prot="public" virt="non-virtual"><scope>MusicStore::Models::Song</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

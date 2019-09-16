@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_music_store_1_1_models" kind="namespace">
+    <compoundname>MusicStore::Models</compoundname>
+    <innerclass refid="class_music_store_1_1_models_1_1_customer" prot="public">MusicStore::Models::Customer</innerclass>
+    <innerclass refid="class_music_store_1_1_models_1_1_error_view_model" prot="public">MusicStore::Models::ErrorViewModel</innerclass>
+    <innerclass refid="class_music_store_1_1_models_1_1_song" prot="public">MusicStore::Models::Song</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models/Customer.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

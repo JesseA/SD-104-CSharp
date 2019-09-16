@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_controllers_1_1_customers_controller" kind="class" prot="public">
+    <compoundname>MusicStore::Controllers::CustomersController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Controller</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_music_store_1_1_controllers_1_1_customers_controller_1a74978d489841e07fb60f82a209b8d293" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_music_store_1_1_data_1_1_application_db_context" kindref="compound">ApplicationDbContext</ref></type>
+        <definition>readonly ApplicationDbContext MusicStore.Controllers.CustomersController._context</definition>
+        <argsstring></argsstring>
+        <name>_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="18" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_music_store_1_1_controllers_1_1_customers_controller_1a66645efe312199dbebf7f1843823b257" prot="private" static="no" mutable="no">
+        <type>readonly IHostingEnvironment</type>
+        <definition>readonly IHostingEnvironment MusicStore.Controllers.CustomersController._env</definition>
+        <argsstring></argsstring>
+        <name>_env</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="19" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a0303cc7047e7b632911d77204ff93913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MusicStore.Controllers.CustomersController.CustomersController</definition>
+        <argsstring>(ApplicationDbContext context, IHostingEnvironment env)</argsstring>
+        <name>CustomersController</name>
+        <param>
+          <type><ref refid="class_music_store_1_1_data_1_1_application_db_context" kindref="compound">ApplicationDbContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>IHostingEnvironment</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="21" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1aa1746d0b9c5ae8fc644efdbf6dfd4b60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="28" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a69160d984b3217d65180083e738a7482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.Details</definition>
+        <argsstring>(int?id)</argsstring>
+        <name>Details</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="34" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="34" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a5fd34beab92b9b4fd4262b5f343db8d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult MusicStore.Controllers.CustomersController.Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="52" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a1377fe641d0603d9c673c302e4ffa84c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.Create</definition>
+        <argsstring>([Bind(&quot;Id,Name,Age,FavoriteGenre,FavoriteSong,ImagePath&quot;)] Customer customer, IFormFile file)</argsstring>
+        <name>Create</name>
+        <param>
+          <attributes>[Bind(&quot;Id,Name,Age,FavoriteGenre,FavoriteSong,ImagePath&quot;)]</attributes>
+          <type><ref refid="class_music_store_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <param>
+          <type>IFormFile</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="62" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="62" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a73f7008cd26d1fe93ac964e19a204674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.Edit</definition>
+        <argsstring>(int?id)</argsstring>
+        <name>Edit</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="85" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="85" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a47b0c09aa91a7280c119f15632f02c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.Edit</definition>
+        <argsstring>(int id, [Bind(&quot;Id,Name,Age,FavoriteGenre,FavoriteSong,ImagePath&quot;)] Customer customer, IFormFile file)</argsstring>
+        <name>Edit</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <attributes>[Bind(&quot;Id,Name,Age,FavoriteGenre,FavoriteSong,ImagePath&quot;)]</attributes>
+          <type><ref refid="class_music_store_1_1_models_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <param>
+          <type>IFormFile</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="105" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="105" bodyend="144"/>
+        <references refid="class_music_store_1_1_models_1_1_customer_1a3687e461b92d79b21bae0f72ca91503c" compoundref="_customer_8cs" startline="13">MusicStore.Models.Customer.Id</references>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1a9b4f11891ff77a150f94536842e440f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.Delete</definition>
+        <argsstring>(int?id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int?</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="147" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="147" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1ab7d424bbae681247809fb7b6b9eaf6a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IActionResult &gt;</type>
+        <definition>async Task&lt;IActionResult&gt; MusicStore.Controllers.CustomersController.DeleteConfirmed</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteConfirmed</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="167" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="167" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_music_store_1_1_controllers_1_1_customers_controller_1aaa257ac6534c8741628dcd1416f6a2b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MusicStore.Controllers.CustomersController.CustomerExists</definition>
+        <argsstring>(int id)</argsstring>
+        <name>CustomerExists</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="175" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="175" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>MusicStore.Controllers.CustomersController</label>
+        <link refid="class_music_store_1_1_controllers_1_1_customers_controller"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Controller</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>MusicStore.Data.ApplicationDbContext</label>
+        <link refid="class_music_store_1_1_data_1_1_application_db_context"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MusicStore.Controllers.CustomersController</label>
+        <link refid="class_music_store_1_1_controllers_1_1_customers_controller"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+        <childnode refid="46" relation="usage">
+          <edgelabel>_context</edgelabel>
+        </childnode>
+      </node>
+      <node id="47">
+        <label>IdentityDbContext</label>
+      </node>
+      <node id="45">
+        <label>Controller</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" line="17" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers/CustomersController.cs" bodystart="16" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a74978d489841e07fb60f82a209b8d293" prot="private" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>_context</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a66645efe312199dbebf7f1843823b257" prot="private" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>_env</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a5fd34beab92b9b4fd4262b5f343db8d4" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Create</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a1377fe641d0603d9c673c302e4ffa84c" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Create</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1aaa257ac6534c8741628dcd1416f6a2b0" prot="private" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>CustomerExists</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a0303cc7047e7b632911d77204ff93913" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>CustomersController</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a9b4f11891ff77a150f94536842e440f8" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Delete</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1ab7d424bbae681247809fb7b6b9eaf6a0" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>DeleteConfirmed</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a69160d984b3217d65180083e738a7482" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Details</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a73f7008cd26d1fe93ac964e19a204674" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Edit</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a47b0c09aa91a7280c119f15632f02c60" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Edit</name></member>
+      <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1aa1746d0b9c5ae8fc644efdbf6dfd4b60" prot="public" virt="non-virtual"><scope>MusicStore::Controllers::CustomersController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

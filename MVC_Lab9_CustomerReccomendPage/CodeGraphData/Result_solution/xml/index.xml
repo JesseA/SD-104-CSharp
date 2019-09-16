@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1__1_lab8" kind="class"><name>MusicStore::Data::Migrations::_1Lab8</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__1_lab8_1aea45cd765ad128af838225700ab58571" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__1_lab8_1ab7ef45a1937c096da0c226a70f45c2ac" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__1_lab8_1a6be2d8a91d082df7e3ce5bf4d313d3ef" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab7" kind="class"><name>MusicStore::Data::Migrations::_2Lab7</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab7_1a98c5b54d55359dedf2cab9252928079e" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab7_1af1206f5358fe8a8040d0a2b8e34f97c4" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab7_1a203838759768a3b58d674474452cb809" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab8" kind="class"><name>MusicStore::Data::Migrations::_2Lab8</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab8_1ade436270932ed5045e46d51388b768cb" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab8_1abffab43cde62e77abf45465f794920e0" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__2_lab8_1ac359e12b82eed67201f3aa67a49dbc51" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab7" kind="class"><name>MusicStore::Data::Migrations::_3Lab7</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab7_1a0b40285fde47d938e50bf1393fd46d1c" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab7_1a79c4c8d5c6db0e805eb22531766a6746" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab7_1ada7b0a250326731e425f7cfbf0c6b8f9" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab8" kind="class"><name>MusicStore::Data::Migrations::_3Lab8</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab8_1a35562d2f23956a60ef78e3cacba185f6" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab8_1a763ad0688e99289e4a952a7a9392d7d2" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__3_lab8_1acab487a15d609dbdb99824b8baf5fcdc" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1__4_lab8" kind="class"><name>MusicStore::Data::Migrations::_4Lab8</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__4_lab8_1a32c93b20b531f500e97ac744030583fa" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__4_lab8_1a6c49b3159a23637fe09508d846d12f06" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1__4_lab8_1a6d455c0df6976bc1d4bbdfd822a4dc54" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_application_db_context" kind="class"><name>MusicStore::Data::ApplicationDbContext</name>
+    <member refid="class_music_store_1_1_data_1_1_application_db_context_1acec6343a2c964437ed16094a7c685e5e" kind="property"><name>Song</name></member>
+    <member refid="class_music_store_1_1_data_1_1_application_db_context_1a16ea0774b59af291650f3492c0f5cf16" kind="property"><name>Customer</name></member>
+    <member refid="class_music_store_1_1_data_1_1_application_db_context_1aecea523e4d34ebbf4485e26711e17527" kind="function"><name>ApplicationDbContext</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot" kind="class"><name>MusicStore::Data::Migrations::ApplicationDbContextModelSnapshot</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_application_db_context_model_snapshot_1ab3b003c25af4e526e61c47daa215df56" kind="function"><name>BuildModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema" kind="class"><name>MusicStore::Data::Migrations::CreateIdentitySchema</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a009efd3d004c48ec92dd5fdb12c1f667" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a29f820ceff0f4374f90a84387c5421b3" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_create_identity_schema_1a46a650c3755eff219055cd014539538c" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_models_1_1_customer" kind="class"><name>MusicStore::Models::Customer</name>
+    <member refid="class_music_store_1_1_models_1_1_customer_1a3687e461b92d79b21bae0f72ca91503c" kind="property"><name>Id</name></member>
+    <member refid="class_music_store_1_1_models_1_1_customer_1aaf3162b1cf352c9856e11df18cfd4472" kind="property"><name>Name</name></member>
+    <member refid="class_music_store_1_1_models_1_1_customer_1aeb03852512a1925bceb4030b28446a01" kind="property"><name>Age</name></member>
+    <member refid="class_music_store_1_1_models_1_1_customer_1a0269f84238cc31346773ec34e63448fb" kind="property"><name>FavoriteGenre</name></member>
+    <member refid="class_music_store_1_1_models_1_1_customer_1a7d36bc8b090de1373fdf9df93f844883" kind="property"><name>FavoriteSong</name></member>
+    <member refid="class_music_store_1_1_models_1_1_customer_1a434c8ef39329fab106e47928485cfa77" kind="property"><name>ImagePath</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_customers" kind="class"><name>MusicStore::Data::Migrations::Customers</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_customers_1ae7f4335d487d2d00489612334dc6603d" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_customers_1a87e068793ee4430995a7f2ec1790d1f9" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_customers_1a37f3317117188255f7b880972f66b124" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_controllers_1_1_customers_controller" kind="class"><name>MusicStore::Controllers::CustomersController</name>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a74978d489841e07fb60f82a209b8d293" kind="variable"><name>_context</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a66645efe312199dbebf7f1843823b257" kind="variable"><name>_env</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a0303cc7047e7b632911d77204ff93913" kind="function"><name>CustomersController</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1aa1746d0b9c5ae8fc644efdbf6dfd4b60" kind="function"><name>Index</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a69160d984b3217d65180083e738a7482" kind="function"><name>Details</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a5fd34beab92b9b4fd4262b5f343db8d4" kind="function"><name>Create</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a1377fe641d0603d9c673c302e4ffa84c" kind="function"><name>Create</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a73f7008cd26d1fe93ac964e19a204674" kind="function"><name>Edit</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a47b0c09aa91a7280c119f15632f02c60" kind="function"><name>Edit</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1a9b4f11891ff77a150f94536842e440f8" kind="function"><name>Delete</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1ab7d424bbae681247809fb7b6b9eaf6a0" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_customers_controller_1aaa257ac6534c8741628dcd1416f6a2b0" kind="function"><name>CustomerExists</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_models_1_1_error_view_model" kind="class"><name>MusicStore::Models::ErrorViewModel</name>
+    <member refid="class_music_store_1_1_models_1_1_error_view_model_1a7d3b64a6db429c4249eedbae6992b78e" kind="property"><name>RequestId</name></member>
+    <member refid="class_music_store_1_1_models_1_1_error_view_model_1aaf11aed6996eaee145c469bab7429734" kind="variable"><name>ShowRequestId</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_controllers_1_1_home_controller" kind="class"><name>MusicStore::Controllers::HomeController</name>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a89e18b639285bcb5d1c875925c7f3901" kind="variable"><name>_context</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1ac015e96f1fd38d340c1e01e36e868a0a" kind="function"><name>HomeController</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1ab447fe264f69ef83cd8502d358b2521d" kind="function"><name>Index</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a1194957f8eb3c0a15320cd7d22d111f5" kind="function"><name>Albums</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a201516d5f4358d4af8ad92276d2dfdfb" kind="function"><name>About</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a3ede30c676413cc65af7093c2e6450e2" kind="function"><name>Contact</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a2b2b9fc769baf64a190f72c9a9e06752" kind="function"><name>Privacy</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_home_controller_1a61c59cc5552bae97e99db1c157b22c82" kind="function"><name>Error</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_initial1" kind="class"><name>MusicStore::Data::Migrations::Initial1</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_initial1_1ac3ed7dbc3474a2c50da35d9758908647" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_initial1_1aee440044233cd8a5da079716c95cbeb7" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_initial1_1ad4042e8a22f562620581f96b72b8609f" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_lab7" kind="class"><name>MusicStore::Data::Migrations::Lab7</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_lab7_1a34a571e3c06b18a3559302ef7ad523a7" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_lab7_1a3742a8f0481f347854337e5fb65b9bcd" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_lab7_1a39dda62dcee3a08ac5ab2b86c2b4fef2" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_program" kind="class"><name>MusicStore::Program</name>
+    <member refid="class_music_store_1_1_program_1a7ecafaeb4a96d39ba69d3c64c508283d" kind="function"><name>Main</name></member>
+    <member refid="class_music_store_1_1_program_1a261e90ebfec602eed7f1ba8612b902e0" kind="function"><name>CreateWebHostBuilder</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_second" kind="class"><name>MusicStore::Data::Migrations::Second</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_second_1ad3bc232ea2ddb90b074cacacfe4ac441" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_second_1ad0b16eb09776a34c9a940dfce02e2dae" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_second_1a2f6d40de43b96d8bb78cf48952b474dd" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_song" kind="class"><name>MusicStore::Data::Migrations::Song</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_song_1a811d84b6771871b0491b32149e32f2a2" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_song_1a7ee7a19eae12580e64a67eea16e4c55c" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_song_1a9c89f9355da5dc4d9aa5133a8cc6a929" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_models_1_1_song" kind="class"><name>MusicStore::Models::Song</name>
+    <member refid="class_music_store_1_1_models_1_1_song_1a9b1d704b1444d73643356d2c4a5af98d" kind="property"><name>Id</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1acf8e12b48d87c5340974590d44e9d8af" kind="property"><name>Title</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1aac792b7b00964576248c34950cd9c579" kind="property"><name>Artist</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1a09ffa87d566d660ebda512a32626d779" kind="property"><name>Album</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1a4612c326e5d4cd0334aab47ea004c5dd" kind="property"><name>ReleaseDate</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1af8859cbb940a9106458b07a19896bf66" kind="property"><name>Genre</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1a4ba4f7bf3af3f740cda4cda228a57e37" kind="property"><name>ImagePath</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1a903532cd136265da80d402ee7d5f22c3" kind="property"><name>Price</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1a1b5e92d4ef158eea68906e65f58de80c" kind="property"><name>IsActive</name></member>
+    <member refid="class_music_store_1_1_models_1_1_song_1ace6f0d3049e02cdef7461943f4c173dc" kind="property"><name>IsFeatured</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_controllers_1_1_songs_controller" kind="class"><name>MusicStore::Controllers::SongsController</name>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a2621f521eee5567e3933dcdbda6771d9" kind="variable"><name>_context</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1aa54064f76743a5abd95affd63007895e" kind="variable"><name>_env</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a20cfafad485463267a9e5e2aab02d81e" kind="function"><name>SongsController</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a010834b2ec26ae0ed5ef480c92d54d14" kind="function"><name>Index</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1af1b34f33dcfce48bba8c5acfca7e72c9" kind="function"><name>Details</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a789e523daf8467beae2766c70831445a" kind="function"><name>Create</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a02bcf95b99231dc148474892c6cda821" kind="function"><name>Create</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a703329953d5e6a1ed28728cb2b73c757" kind="function"><name>Edit</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a51cd2dcf058dc60d2afa9405446ecd25" kind="function"><name>Edit</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1aa7b017cfa43f593231d4bd21cc9c1f86" kind="function"><name>Delete</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1a3416f8da0f54aab2cbf10ae87ac75978" kind="function"><name>DeleteConfirmed</name></member>
+    <member refid="class_music_store_1_1_controllers_1_1_songs_controller_1ab70254aa3069e2fbe15058c76e317342" kind="function"><name>SongExists</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_startup" kind="class"><name>MusicStore::Startup</name>
+    <member refid="class_music_store_1_1_startup_1afb8dcf9117b3fdfb650f1dc129e7cb9a" kind="property"><name>Configuration</name></member>
+    <member refid="class_music_store_1_1_startup_1a66b09cba0fc035b2355bf8942b8f4984" kind="function"><name>Startup</name></member>
+    <member refid="class_music_store_1_1_startup_1a41b3cb4716a36aaeea64eb7f5c8a7bfd" kind="function"><name>ConfigureServices</name></member>
+    <member refid="class_music_store_1_1_startup_1a5303515ab60aff0aa7ca6b272106cb23" kind="function"><name>Configure</name></member>
+  </compound>
+  <compound refid="class_music_store_1_1_data_1_1_migrations_1_1_third" kind="class"><name>MusicStore::Data::Migrations::Third</name>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_third_1a47dd0d25229b426fc83fe757ae7b3d03" kind="function"><name>Up</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_third_1ac57beca65a95560698eb775849d9be0f" kind="function"><name>Down</name></member>
+    <member refid="class_music_store_1_1_data_1_1_migrations_1_1_third_1ae06003c3da50414be2f355eb7761b7c1" kind="function"><name>BuildTargetModel</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core" kind="namespace"><name>Microsoft::AspNetCore</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_builder" kind="namespace"><name>Microsoft::AspNetCore::Builder</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_hosting" kind="namespace"><name>Microsoft::AspNetCore::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_http" kind="namespace"><name>Microsoft::AspNetCore::Http</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_https_policy" kind="namespace"><name>Microsoft::AspNetCore::HttpsPolicy</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_identity" kind="namespace"><name>Microsoft::AspNetCore::Identity</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_identity_1_1_entity_framework_core" kind="namespace"><name>Microsoft::AspNetCore::Identity::EntityFrameworkCore</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc" kind="namespace"><name>Microsoft::AspNetCore::Mvc</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc_1_1_rendering" kind="namespace"><name>Microsoft::AspNetCore::Mvc::Rendering</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core" kind="namespace"><name>Microsoft::EntityFrameworkCore</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_infrastructure" kind="namespace"><name>Microsoft::EntityFrameworkCore::Infrastructure</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_metadata" kind="namespace"><name>Microsoft::EntityFrameworkCore::Metadata</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_migrations" kind="namespace"><name>Microsoft::EntityFrameworkCore::Migrations</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core_1_1_storage_1_1_value_conversion" kind="namespace"><name>Microsoft::EntityFrameworkCore::Storage::ValueConversion</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_configuration" kind="namespace"><name>Microsoft::Extensions::Configuration</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_logging" kind="namespace"><name>Microsoft::Extensions::Logging</name>
+  </compound>
+  <compound refid="namespace_music_store" kind="namespace"><name>MusicStore</name>
+  </compound>
+  <compound refid="namespace_music_store_1_1_controllers" kind="namespace"><name>MusicStore::Controllers</name>
+  </compound>
+  <compound refid="namespace_music_store_1_1_data" kind="namespace"><name>MusicStore::Data</name>
+  </compound>
+  <compound refid="namespace_music_store_1_1_data_1_1_migrations" kind="namespace"><name>MusicStore::Data::Migrations</name>
+  </compound>
+  <compound refid="namespace_music_store_1_1_models" kind="namespace"><name>MusicStore::Models</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_customers_controller_8cs" kind="file"><name>CustomersController.cs</name>
+  </compound>
+  <compound refid="_home_controller_8cs" kind="file"><name>HomeController.cs</name>
+  </compound>
+  <compound refid="_songs_controller_8cs" kind="file"><name>SongsController.cs</name>
+  </compound>
+  <compound refid="_application_db_context_8cs" kind="file"><name>ApplicationDbContext.cs</name>
+  </compound>
+  <compound refid="00000000000000___create_identity_schema_8cs" kind="file"><name>00000000000000_CreateIdentitySchema.cs</name>
+  </compound>
+  <compound refid="00000000000000___create_identity_schema_8_designer_8cs" kind="file"><name>00000000000000_CreateIdentitySchema.Designer.cs</name>
+  </compound>
+  <compound refid="20190909174907___initial1_8cs" kind="file"><name>20190909174907_Initial1.cs</name>
+  </compound>
+  <compound refid="20190909174907___initial1_8_designer_8cs" kind="file"><name>20190909174907_Initial1.Designer.cs</name>
+  </compound>
+  <compound refid="20190909180401___song_8cs" kind="file"><name>20190909180401_Song.cs</name>
+  </compound>
+  <compound refid="20190909180401___song_8_designer_8cs" kind="file"><name>20190909180401_Song.Designer.cs</name>
+  </compound>
+  <compound refid="20190912142132___second_8cs" kind="file"><name>20190912142132_Second.cs</name>
+  </compound>
+  <compound refid="20190912142132___second_8_designer_8cs" kind="file"><name>20190912142132_Second.Designer.cs</name>
+  </compound>
+  <compound refid="20190912153647___third_8cs" kind="file"><name>20190912153647_Third.cs</name>
+  </compound>
+  <compound refid="20190912153647___third_8_designer_8cs" kind="file"><name>20190912153647_Third.Designer.cs</name>
+  </compound>
+  <compound refid="20190916140034___lab7_8cs" kind="file"><name>20190916140034_Lab7.cs</name>
+  </compound>
+  <compound refid="20190916140034___lab7_8_designer_8cs" kind="file"><name>20190916140034_Lab7.Designer.cs</name>
+  </compound>
+  <compound refid="20190916142042__2_lab7_8cs" kind="file"><name>20190916142042_2Lab7.cs</name>
+  </compound>
+  <compound refid="20190916142042__2_lab7_8_designer_8cs" kind="file"><name>20190916142042_2Lab7.Designer.cs</name>
+  </compound>
+  <compound refid="20190916143513__3_lab7_8cs" kind="file"><name>20190916143513_3Lab7.cs</name>
+  </compound>
+  <compound refid="20190916143513__3_lab7_8_designer_8cs" kind="file"><name>20190916143513_3Lab7.Designer.cs</name>
+  </compound>
+  <compound refid="20190916150340__1_lab8_8cs" kind="file"><name>20190916150340_1Lab8.cs</name>
+  </compound>
+  <compound refid="20190916150340__1_lab8_8_designer_8cs" kind="file"><name>20190916150340_1Lab8.Designer.cs</name>
+  </compound>
+  <compound refid="20190916151330___customers_8cs" kind="file"><name>20190916151330_Customers.cs</name>
+  </compound>
+  <compound refid="20190916151330___customers_8_designer_8cs" kind="file"><name>20190916151330_Customers.Designer.cs</name>
+  </compound>
+  <compound refid="20190916152212__2_lab8_8cs" kind="file"><name>20190916152212_2Lab8.cs</name>
+  </compound>
+  <compound refid="20190916152212__2_lab8_8_designer_8cs" kind="file"><name>20190916152212_2Lab8.Designer.cs</name>
+  </compound>
+  <compound refid="20190916153618__3_lab8_8cs" kind="file"><name>20190916153618_3Lab8.cs</name>
+  </compound>
+  <compound refid="20190916153618__3_lab8_8_designer_8cs" kind="file"><name>20190916153618_3Lab8.Designer.cs</name>
+  </compound>
+  <compound refid="20190916154822__4_lab8_8cs" kind="file"><name>20190916154822_4Lab8.cs</name>
+  </compound>
+  <compound refid="20190916154822__4_lab8_8_designer_8cs" kind="file"><name>20190916154822_4Lab8.Designer.cs</name>
+  </compound>
+  <compound refid="_application_db_context_model_snapshot_8cs" kind="file"><name>ApplicationDbContextModelSnapshot.cs</name>
+  </compound>
+  <compound refid="_customer_8cs" kind="file"><name>Customer.cs</name>
+  </compound>
+  <compound refid="_error_view_model_8cs" kind="file"><name>ErrorViewModel.cs</name>
+  </compound>
+  <compound refid="_song_8cs" kind="file"><name>Song.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_startup_8cs" kind="file"><name>Startup.cs</name>
+  </compound>
+  <compound refid="_l_i_c_e_n_s_e_8md" kind="file"><name>LICENSE.md</name>
+  </compound>
+  <compound refid="md__c_1__users__a_c_t__desktop__jesse__a__projects__git__repo__jesse_a__s_d-104-_c_sharp__m_v_c_7e9b951347f308f749e6d2bf9ce1cb1b" kind="page"><name>md_C:_Users_ACT_Desktop_Jesse_A_Projects_Git_Repo_JesseA_SD-104-CSharp_MVC_Lab9_CustomerReccomendPage_wwwroot_lib_jquery-validation_LICENSE</name>
+  <compound refid="dir_af76b42206172b707801125024b37ab3" kind="dir"><name>C:/Users/ACT</name>
+  </compound>
+  <compound refid="dir_960bcaa41913724c4c8ade32ce00e60a" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Controllers</name>
+  </compound>
+  <compound refid="dir_a7cfe6175a5158a81c5e76492ec0fbd3" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data</name>
+  </compound>
+  <compound refid="dir_c4fdab6090dcacc8419ff37a1418d9ad" kind="dir"><name>C:/Users/ACT/Desktop</name>
+  </compound>
+  <compound refid="dir_acd1889dbbf458b078387e3e9e098583" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo</name>
+  </compound>
+  <compound refid="dir_191c45ffc8c06d60b3e13b7908efa8e8" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects</name>
+  </compound>
+  <compound refid="dir_fb2cf21eb441f6b3c7365dc17a1df5ff" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA</name>
+  </compound>
+  <compound refid="dir_3e7c351716f1903d6f5d85391b507cbf" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Data/Migrations</name>
+  </compound>
+  <compound refid="dir_f4fbe5522395e2b3b704e03f20120d41" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Models</name>
+  </compound>
+  <compound refid="dir_fdc423a927199b3f5222349201ba4acf" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage</name>
+  </compound>
+  <compound refid="dir_c7faa21b51c9a8e6fd4d886ab08592e9" kind="dir"><name>C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

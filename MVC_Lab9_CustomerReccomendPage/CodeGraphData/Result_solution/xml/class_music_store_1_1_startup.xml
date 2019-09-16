@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_music_store_1_1_startup" kind="class" prot="public">
+    <compoundname>MusicStore::Startup</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_music_store_1_1_startup_1afb8dcf9117b3fdfb650f1dc129e7cb9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IConfiguration</type>
+        <definition>IConfiguration MusicStore.Startup.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" line="25" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_music_store_1_1_startup_1a66b09cba0fc035b2355bf8942b8f4984" compoundref="_startup_8cs" startline="20" endline="23">MusicStore.Startup.Startup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_music_store_1_1_startup_1a66b09cba0fc035b2355bf8942b8f4984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MusicStore.Startup.Startup</definition>
+        <argsstring>(IConfiguration configuration)</argsstring>
+        <name>Startup</name>
+        <param>
+          <type>IConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" line="20" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" bodystart="20" bodyend="23"/>
+        <references refid="class_music_store_1_1_startup_1afb8dcf9117b3fdfb650f1dc129e7cb9a" compoundref="_startup_8cs" startline="25">MusicStore.Startup.Configuration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_startup_1a41b3cb4716a36aaeea64eb7f5c8a7bfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MusicStore.Startup.ConfigureServices</definition>
+        <argsstring>(IServiceCollection services)</argsstring>
+        <name>ConfigureServices</name>
+        <param>
+          <type>IServiceCollection</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" line="28" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" bodystart="28" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_music_store_1_1_startup_1a5303515ab60aff0aa7ca6b272106cb23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MusicStore.Startup.Configure</definition>
+        <argsstring>(IApplicationBuilder app, IHostingEnvironment env)</argsstring>
+        <name>Configure</name>
+        <param>
+          <type>IApplicationBuilder</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>IHostingEnvironment</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" line="47" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" bodystart="47" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" line="19" column="1" bodyfile="C:/Users/ACT/Desktop/Jesse A Projects/Git Repo/JesseA/SD-104-CSharp/MVC_Lab9_CustomerReccomendPage/Startup.cs" bodystart="18" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_music_store_1_1_startup_1afb8dcf9117b3fdfb650f1dc129e7cb9a" prot="public" virt="non-virtual"><scope>MusicStore::Startup</scope><name>Configuration</name></member>
+      <member refid="class_music_store_1_1_startup_1a5303515ab60aff0aa7ca6b272106cb23" prot="public" virt="non-virtual"><scope>MusicStore::Startup</scope><name>Configure</name></member>
+      <member refid="class_music_store_1_1_startup_1a41b3cb4716a36aaeea64eb7f5c8a7bfd" prot="public" virt="non-virtual"><scope>MusicStore::Startup</scope><name>ConfigureServices</name></member>
+      <member refid="class_music_store_1_1_startup_1a66b09cba0fc035b2355bf8942b8f4984" prot="public" virt="non-virtual"><scope>MusicStore::Startup</scope><name>Startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
