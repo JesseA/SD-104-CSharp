@@ -1,0 +1,42 @@
+﻿@model Final_Question1.Models.Airplane
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Airplane</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Manufacturer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Manufacturer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PassengerSeatingCount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PassengerSeatingCount)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxFlightMileage)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxFlightMileage)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

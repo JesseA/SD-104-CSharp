@@ -1,0 +1,30 @@
+﻿@model Final_Question1.Models.Airplane
+
+@{
+    ViewData["Title"] = "First Even Airplane";
+}
+
+<h2>Airplane ID: </h2>
+
+</br>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt><label>Airplane ID: </label>@Model.Id</dt>
+        </br>
+        <dd>
+            @foreach (string item in Model.ToString().Split('\n'))
+            {
+                <p><b>@item.Split(':')[0]:</b> @item.Split(':')[1]</p>
+                <br />
+            }
+        </dd>
+        
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
