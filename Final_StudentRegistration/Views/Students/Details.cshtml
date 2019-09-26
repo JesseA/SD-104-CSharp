@@ -1,0 +1,42 @@
+﻿@model Final_StudentRegistration.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudentName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentIDNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudentIDNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CellPhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CellPhoneNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentAge)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudentAge)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

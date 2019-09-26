@@ -1,0 +1,45 @@
+﻿@model Final_StudentRegistration.Models.Student
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudentName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentIDNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudentIDNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CellPhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CellPhoneNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentAge)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StudentAge)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
