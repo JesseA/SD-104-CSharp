@@ -1,14 +1,12 @@
 ﻿@model IEnumerable<Final_StudentRegistration.Models.Student>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "StudentList";
 }
 
-<h2>Student Index</h2>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h2>Student List</h2>
+<label>Searching for: </label> "@ViewBag.searchTerm"
+</br>
 <table class="table">
     <thead>
         <tr>
@@ -31,7 +29,8 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model)
+        {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.StudentIDNumber)
@@ -54,6 +53,6 @@
                 <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </td>
         </tr>
-}
+        }
     </tbody>
 </table>

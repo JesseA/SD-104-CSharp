@@ -11,7 +11,7 @@ namespace Final_StudentRegistration.Models
         public int ID { get; set; }
         [System.ComponentModel.DataAnnotations.Display(Name = "Student Name")]
         public string StudentName { get; set; }
-        [System.ComponentModel.DataAnnotations.Display(Name = "Student ID")]
+        [System.ComponentModel.DataAnnotations.Display(Name = "Student ID Number")]
         public int StudentIDNumber { get; set; }
         [System.ComponentModel.DataAnnotations.Display(Name = "Cell Phone Number")]
         public string CellPhoneNumber { get; set; }

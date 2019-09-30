@@ -25,6 +25,17 @@ namespace Final_StudentRegistration.Controllers
             return View(await _context.Student.ToListAsync());
         }
 
+        public async Task<IActionResult> StudentList(string searchTerm)
+        {
+            var students = from m in _context.Student select m;
+            if (!String.IsNullOrEmpty(searchTerm))
+            {
+                students =  students.Where(s => ((s.StudentIDNumber + " " + s.StudentName + " " + s.CellPhoneNumber + " " + s.StudentAge+" "+s.EmailAddress).Contains(searchTerm)));
+            }
+            ViewBag.searchTerm = searchTerm;
+            return View(await students.ToListAsync());
+        }
+
         // GET: Students/Details/5
         public async Task<IActionResult> Details(int? id)
         {
