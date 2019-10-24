@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-WebBookstore_FinalProject-0ADA8A96-8409-4794-93F2-4744D3BF6C64</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
