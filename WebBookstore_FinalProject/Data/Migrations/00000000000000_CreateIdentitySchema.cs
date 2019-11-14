@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebBookstore_FinalProject.Data.Migrations
+namespace FantasEBooks.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

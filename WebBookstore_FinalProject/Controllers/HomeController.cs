@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebBookstore_FinalProject.Models;
+using FantasEBooks.Models;
 
-namespace WebBookstore_FinalProject.Controllers
+namespace FantasEBooks.Controllers
 {
     public class HomeController : Controller
     {

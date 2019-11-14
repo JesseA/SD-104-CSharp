@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebBookstore_FinalProject</title>
+    <title>@ViewData["Title"] - Welcome to FantasEBooks</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -15,25 +15,47 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
+    <style>
+        {background-color:indigo; color:goldenrod;}
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <style>
+        {
+            background-color: indigo;
+            color: goldenrod;
+        }
+    </style>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:indigo">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" style="background-color:indigo">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">WebBookstore_FinalProject</a>
+
+                <a asp-area="" style="color:goldenrod" asp-controller="Home" asp-action="Index" class="navbar-brand"><a href="#"><img alt="FantasEBooks logo" style="color:goldenrod" src="~/images/fantasy.svg" width="40"></a><p style="color:goldenrod">FantasEBooks</p></a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                <ul class="nav navbar-nav" style="color:goldenrod; background-color:indigo;">
+                    <li><a asp-area="" asp-controller="Books" asp-action="Index" style="color:goldenrod; background-color:indigo;">Browse Books</a></li>
+                    <li><a asp-area="" asp-controller="Genres" asp-action="Index" style="color:goldenrod; background-color:indigo;">Explore Genres</a></li>
+                    <li><a asp-area="" asp-controller="Libraries" asp-action="Index" style="color:goldenrod; background-color:indigo;">My Libray</a></li>
+                    <li><a asp-area="" asp-controller="Recommendations" asp-action="Index" style="color:goldenrod; background-color:indigo;">Recommendations</a></li>
+                    <li><a asp-area="" asp-controller="ShoppingCarts" asp-action="Index" style="color:goldenrod; background-color:indigo;">View Cart</a></li>
                 </ul>
+                <div class="search-component center">
+                    <div class="search-bar-component">
+                        <div class="search-bar">
+                            <form class="search-bar-input" action="/search" method="get">
+                                <input type="text" name="q" placeholder="Search" autocomplete="off">
+                                <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 <partial name="_LoginPartial" />
             </div>
         </div>
@@ -45,7 +67,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2019 - WebBookstore_FinalProject</p>
+            <p>&copy; 2019 - FantasEBooks</p>
         </footer>
     </div>
 

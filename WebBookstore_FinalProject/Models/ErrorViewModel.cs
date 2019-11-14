@@ -1,6 +1,6 @@
 using System;
 
-namespace WebBookstore_FinalProject.Models
+namespace FantasEBooks.Models
 {
     public class ErrorViewModel
     {

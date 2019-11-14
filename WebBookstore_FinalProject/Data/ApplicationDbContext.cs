@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using WebBookstore_FinalProject.Models;
 
-namespace WebBookstore_FinalProject.Data
+namespace FantasEBooks.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -12,5 +13,11 @@ namespace WebBookstore_FinalProject.Data
             : base(options)
         {
         }
+        public DbSet<WebBookstore_FinalProject.Models.Book> Book { get; set; }
+        public DbSet<WebBookstore_FinalProject.Models.Genre> Genre { get; set; }
+        public DbSet<WebBookstore_FinalProject.Models.User> User { get; set; }
+        public DbSet<WebBookstore_FinalProject.Models.ShoppingCart> ShoppingCart { get; set; }
+        public DbSet<WebBookstore_FinalProject.Models.Recommendations> Recommendations { get; set; }
+        public DbSet<WebBookstore_FinalProject.Models.Library> Library { get; set; }
     }
 }
